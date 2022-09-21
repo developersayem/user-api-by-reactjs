@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.usersContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+.userContainer{
+background-color: #282c34;
+color: aliceblue;
+border: 2px solid #61dafb;
+border-radius: 10px;
+}
